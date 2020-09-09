@@ -1,0 +1,74 @@
+{
+    "offsets": [],
+    "aiComponent": {
+        "IsValudate": false,
+        "Name": "",
+        "WaitBusyCellTimeOut": 0.0
+    },
+    "weaponComponent": {
+        "IsValudate": false,
+        "Weapons": [],
+        "TargetTypes": []
+    },
+    "motionComponent": {
+        "IsValudate": false,
+        "Speed": 0.0,
+        "SpeedRotation": 0.0,
+        "MovementCostValue": 0.0,
+        "CanOccupyCell": false
+    },
+    "productionComponent": {
+        "IsValudate": false,
+        "BuildTimeScale": 0.0,
+        "CountPointsPath": 0,
+        "SuppliesPoint": 0
+    },
+    "effectsEmitterComponent": {
+        "IsValudate": true,
+        "EffectScheme": {
+            "Name": "EffectSchemeFreezingSmallKit",
+            "Effect": 2.0,
+            "Duration": 0.0,
+            "TimeInterval": 0.0,
+            "TargetTypes": []
+        },
+        "TargetsType": 2,
+        "Area": 3,
+        "TimeInterval": 0.10000000149011612,
+        "LifeTime": 20.0
+    },
+    "upgradeComponent": {
+        "IsValudate": false,
+        "BaseCost": 0,
+        "MaxLevel": 0,
+        "MinLevel": 0,
+        "Type": 0,
+        "UpgradableSeftCharacteristics": [],
+        "UpgradableDerivedUnitCharacteristics": []
+    },
+    "Name": "UnitIceberg",
+    "HealthPoints": 1000.0,
+    "IsInvulnerable": true,
+    "BuildTime": 1.0,
+    "RepairPerSecond": 0.0,
+    "Cooldown": 30.0,
+    "CountUnits": [],
+    "MinLevel": 1,
+    "DestroyDelayTime": 0.0,
+    "ControlRange": 0,
+    "ViewPrefab": "Iceberg",
+    "IconName": "TotemFreeze",
+    "IconHighlightName": "TotemFreeze_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "TotemFreeze_Shadow",
+    "Type": 4,
+    "placementType": 0,
+    "FractionControlPlacement": 0,
+    "WrecksCost": 0,
+    "BuildCost": 100,
+    "RepairCost": 100,
+    "SuppliesCost": 2,
+    "DestroySound": "Explosion2",
+    "CoinSound": "Coin2"
+}

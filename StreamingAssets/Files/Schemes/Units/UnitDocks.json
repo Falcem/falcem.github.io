@@ -1,0 +1,84 @@
+{
+    "offsets": [
+        {
+            "x": 0,
+            "z": 1
+        }
+    ],
+    "aiComponent": {
+        "IsValudate": false,
+        "Name": "",
+        "WaitBusyCellTimeOut": 0.0
+    },
+    "weaponComponent": {
+        "IsValudate": false,
+        "Weapons": [],
+        "TargetTypes": []
+    },
+    "motionComponent": {
+        "IsValudate": false,
+        "Speed": 0.0,
+        "SpeedRotation": 0.0,
+        "MovementCostValue": 0.0,
+        "CanOccupyCell": false
+    },
+    "productionComponent": {
+        "IsValudate": true,
+        "BuildTimeScale": 1.0,
+        "CountPointsPath": 15,
+        "SuppliesPoint": 5
+    },
+    "effectsEmitterComponent": {
+        "IsValudate": false,
+        "EffectScheme": {
+            "Name": "",
+            "Effect": 0.0,
+            "Duration": 0.0,
+            "TimeInterval": 0.0,
+            "TargetTypes": []
+        },
+        "TargetsType": 0,
+        "Area": 0,
+        "TimeInterval": 0.0,
+        "LifeTime": 0.0
+    },
+    "upgradeComponent": {
+        "IsValudate": true,
+        "BaseCost": 500,
+        "MaxLevel": 10,
+        "MinLevel": 1,
+        "Type": 0,
+        "UpgradableSeftCharacteristics": [
+            {
+                "ValuePerLevel": 1.0,
+                "Name": "UpgradableCharacteristic_ProductionCountUnits_SmallKit"
+            }
+        ],
+        "UpgradableDerivedUnitCharacteristics": []
+    },
+    "Name": "UnitDocks",
+    "HealthPoints": 500.0,
+    "IsInvulnerable": false,
+    "BuildTime": 0.0,
+    "RepairPerSecond": 10.0,
+    "Cooldown": 0.0,
+    "CountUnits": [],
+    "MinLevel": 1,
+    "DestroyDelayTime": 10.0,
+    "ControlRange": 3,
+    "ViewPrefab": "Docks",
+    "IconName": "Docks",
+    "IconHighlightName": "Docks_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "",
+    "Type": 1,
+    "placementType": 1,
+    "FractionControlPlacement": 0,
+    "WrecksCost": 200,
+    "BuildCost": 300,
+    "RepairCost": 300,
+    "SuppliesCost": 1,
+    "DestroySound": "Explosion3",
+    "CoinSound": "Coin2"
+}

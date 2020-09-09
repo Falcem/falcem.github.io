@@ -1,0 +1,22 @@
+{
+    "Name": "SpellEffectRiseHealth",
+    "Type": 3,
+    "Range": 3,
+    "IconName": "RiseHealthIcon",
+    "IconHighlightName": "RiseHealthIcon_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "RiseHealthIcon_Shadow",
+    "Cooldown": 30.0,
+    "Effect": {
+        "Name": "SpellEffectRiseHealthSmallKit",
+        "Effect": 1.0,
+        "Duration": 0.5,
+        "TimeInterval": 0.0,
+        "TargetTypes": [
+            3,
+            1,
+            2
+        ]
+    }
+}

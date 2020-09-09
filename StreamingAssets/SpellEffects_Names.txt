@@ -1,0 +1,5 @@
+SpellEffects/SpellEffectFastBuild.json
+SpellEffects/SpellEffectRiseDamage.json
+SpellEffects/SpellEffectRiseDefence.json
+SpellEffects/SpellEffectRiseHealth.json
+SpellEffects/SpellEffectRiseSpeed.json

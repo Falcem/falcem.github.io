@@ -1,0 +1,103 @@
+{
+    "offsets": [],
+    "aiComponent": {
+        "IsValudate": true,
+        "Name": "CannonAI",
+        "WaitBusyCellTimeOut": 0.0
+    },
+    "weaponComponent": {
+        "IsValudate": true,
+        "Weapons": [
+            {
+                "AttackRange": -1,
+                "Damage": 295,
+                "RateOfFire": 7.0,
+                "TrackingSpeed": 360.0,
+                "IsAreaDamage": false,
+                "AreaDamage": 0,
+                "LossDamagePerDistance": 0.0,
+                "ShotSound": "Shot1"
+            }
+        ],
+        "TargetTypes": [
+            3,
+            1,
+            2
+        ]
+    },
+    "motionComponent": {
+        "IsValudate": false,
+        "Speed": 0.0,
+        "SpeedRotation": 0.0,
+        "MovementCostValue": 0.0,
+        "CanOccupyCell": false
+    },
+    "productionComponent": {
+        "IsValudate": false,
+        "BuildTimeScale": 0.0,
+        "CountPointsPath": 0,
+        "SuppliesPoint": 0
+    },
+    "effectsEmitterComponent": {
+        "IsValudate": false,
+        "EffectScheme": {
+            "Name": "",
+            "Effect": 0.0,
+            "Duration": 0.0,
+            "TimeInterval": 0.0,
+            "TargetTypes": []
+        },
+        "TargetsType": 0,
+        "Area": 0,
+        "TimeInterval": 0.0,
+        "LifeTime": 0.0
+    },
+    "upgradeComponent": {
+        "IsValudate": true,
+        "BaseCost": 500,
+        "MaxLevel": 10,
+        "MinLevel": 1,
+        "Type": 0,
+        "UpgradableSeftCharacteristics": [
+            {
+                "ValuePerLevel": 0.10000000149011612,
+                "Name": "UpgradableCharacteristic_Health_SmallKit"
+            }
+        ],
+        "UpgradableDerivedUnitCharacteristics": [
+            {
+                "ValuePerLevel": 0.10000000149011612,
+                "Name": "UpgradableCharacteristic_Attack_SmallKit"
+            },
+            {
+                "ValuePerLevel": 0.10000000149011612,
+                "Name": "UpgradableCharacteristic_Health_SmallKit"
+            }
+        ]
+    },
+    "Name": "UnitFort",
+    "HealthPoints": 1300.0,
+    "IsInvulnerable": false,
+    "BuildTime": 0.0,
+    "RepairPerSecond": 0.0,
+    "Cooldown": 0.0,
+    "CountUnits": [],
+    "MinLevel": 1,
+    "DestroyDelayTime": 5.0,
+    "ControlRange": 5,
+    "ViewPrefab": "Fort",
+    "IconName": "Base",
+    "IconHighlightName": "Base_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "",
+    "Type": 0,
+    "placementType": 2,
+    "FractionControlPlacement": 0,
+    "WrecksCost": 0,
+    "BuildCost": 0,
+    "RepairCost": 0,
+    "SuppliesCost": 0,
+    "DestroySound": "Explosion3",
+    "CoinSound": "Coin2"
+}

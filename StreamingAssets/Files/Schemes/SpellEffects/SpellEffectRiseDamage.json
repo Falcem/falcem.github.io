@@ -1,0 +1,24 @@
+{
+    "Name": "SpellEffectRiseDamage",
+    "Type": 2,
+    "Range": 3,
+    "IconName": "RiseDamageIcon",
+    "IconHighlightName": "RiseDamageIcon_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "RiseDamageIcon_Shadow",
+    "Cooldown": 30.0,
+    "Effect": {
+        "Name": "SpellEffectRiseDamageSmallKit",
+        "Effect": 1.5,
+        "Duration": 10.0,
+        "TimeInterval": 0.0,
+        "TargetTypes": [
+            3,
+            2,
+            1,
+            0,
+            4
+        ]
+    }
+}

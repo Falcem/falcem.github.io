@@ -1,0 +1,90 @@
+{
+    "offsets": [],
+    "aiComponent": {
+        "IsValudate": true,
+        "Name": "CannonAI",
+        "WaitBusyCellTimeOut": 0.0
+    },
+    "weaponComponent": {
+        "IsValudate": true,
+        "Weapons": [
+            {
+                "AttackRange": 3,
+                "Damage": 30,
+                "RateOfFire": 2.0,
+                "TrackingSpeed": 360.0,
+                "IsAreaDamage": false,
+                "AreaDamage": 0,
+                "LossDamagePerDistance": 0.0,
+                "ShotSound": "Shot3"
+            }
+        ],
+        "TargetTypes": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "motionComponent": {
+        "IsValudate": false,
+        "Speed": 0.0,
+        "SpeedRotation": 0.0,
+        "MovementCostValue": 0.0,
+        "CanOccupyCell": false
+    },
+    "productionComponent": {
+        "IsValudate": false,
+        "BuildTimeScale": 0.0,
+        "CountPointsPath": 0,
+        "SuppliesPoint": 0
+    },
+    "effectsEmitterComponent": {
+        "IsValudate": false,
+        "EffectScheme": {
+            "Name": "",
+            "Effect": 0.0,
+            "Duration": 0.0,
+            "TimeInterval": 0.0,
+            "TargetTypes": []
+        },
+        "TargetsType": 0,
+        "Area": 0,
+        "TimeInterval": 0.0,
+        "LifeTime": 0.0
+    },
+    "upgradeComponent": {
+        "IsValudate": false,
+        "BaseCost": 0,
+        "MaxLevel": 0,
+        "MinLevel": 0,
+        "Type": 0,
+        "UpgradableSeftCharacteristics": [],
+        "UpgradableDerivedUnitCharacteristics": []
+    },
+    "Name": "UnitGroundCannonBig",
+    "HealthPoints": 2000.0,
+    "IsInvulnerable": false,
+    "BuildTime": 2.0,
+    "RepairPerSecond": 3.0,
+    "Cooldown": 0.0,
+    "CountUnits": [],
+    "MinLevel": 1,
+    "DestroyDelayTime": 0.0,
+    "ControlRange": 3,
+    "ViewPrefab": "GroundCannon02",
+    "IconName": "CannonBig",
+    "IconHighlightName": "CannonBig_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "",
+    "Type": 2,
+    "placementType": 1,
+    "FractionControlPlacement": 0,
+    "WrecksCost": 150,
+    "BuildCost": 100,
+    "RepairCost": 50,
+    "SuppliesCost": 2,
+    "DestroySound": "Explosion2",
+    "CoinSound": "Coin2"
+}

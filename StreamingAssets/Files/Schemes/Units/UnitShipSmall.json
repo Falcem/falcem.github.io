@@ -1,0 +1,100 @@
+{
+    "offsets": [],
+    "aiComponent": {
+        "IsValudate": true,
+        "Name": "ShipAI",
+        "WaitBusyCellTimeOut": 0.5
+    },
+    "weaponComponent": {
+        "IsValudate": true,
+        "Weapons": [
+            {
+                "AttackRange": 0,
+                "Damage": 0,
+                "RateOfFire": 0.0,
+                "TrackingSpeed": 1.0,
+                "IsAreaDamage": false,
+                "AreaDamage": 0,
+                "LossDamagePerDistance": 0.0,
+                "ShotSound": "Shot3"
+            }
+        ],
+        "TargetTypes": [
+            0,
+            1,
+            2
+        ]
+    },
+    "motionComponent": {
+        "IsValudate": true,
+        "Speed": 2.0,
+        "SpeedRotation": 360.0,
+        "MovementCostValue": 300.0,
+        "CanOccupyCell": true
+    },
+    "productionComponent": {
+        "IsValudate": false,
+        "BuildTimeScale": 0.0,
+        "CountPointsPath": 0,
+        "SuppliesPoint": 0
+    },
+    "effectsEmitterComponent": {
+        "IsValudate": false,
+        "EffectScheme": {
+            "Name": "",
+            "Effect": 0.0,
+            "Duration": 0.0,
+            "TimeInterval": 0.0,
+            "TargetTypes": []
+        },
+        "TargetsType": 0,
+        "Area": 0,
+        "TimeInterval": 0.0,
+        "LifeTime": 0.0
+    },
+    "upgradeComponent": {
+        "IsValudate": false,
+        "BaseCost": 0,
+        "MaxLevel": 0,
+        "MinLevel": 0,
+        "Type": 0,
+        "UpgradableSeftCharacteristics": [],
+        "UpgradableDerivedUnitCharacteristics": []
+    },
+    "Name": "UnitShipSmall",
+    "HealthPoints": 30.0,
+    "IsInvulnerable": false,
+    "BuildTime": 1.0,
+    "RepairPerSecond": 0.0,
+    "Cooldown": 0.0,
+    "CountUnits": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+    ],
+    "MinLevel": 1,
+    "DestroyDelayTime": 0.0,
+    "ControlRange": 0,
+    "ViewPrefab": "ShipSmall",
+    "IconName": "ShipSmall",
+    "IconHighlightName": "ShipSmall_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "",
+    "Type": 3,
+    "placementType": 0,
+    "FractionControlPlacement": 4,
+    "WrecksCost": 15,
+    "BuildCost": 10,
+    "RepairCost": 0,
+    "SuppliesCost": 1,
+    "DestroySound": "Explosion1",
+    "CoinSound": "Coin2"
+}

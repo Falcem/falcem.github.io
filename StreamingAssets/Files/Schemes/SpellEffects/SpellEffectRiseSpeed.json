@@ -1,0 +1,20 @@
+{
+    "Name": "SpellEffectRiseSpeed",
+    "Type": 4,
+    "Range": 3,
+    "IconName": "RiseSpeedIcon",
+    "IconHighlightName": "RiseSpeedIcon_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "RiseSpeedIcon_Shadow",
+    "Cooldown": 30.0,
+    "Effect": {
+        "Name": "SpellEffectRiseSpeedSmallKit",
+        "Effect": 1.5,
+        "Duration": 10.0,
+        "TimeInterval": 0.0,
+        "TargetTypes": [
+            3
+        ]
+    }
+}

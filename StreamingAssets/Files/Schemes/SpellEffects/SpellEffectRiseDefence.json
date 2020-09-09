@@ -1,0 +1,23 @@
+{
+    "Name": "SpellEffectRiseDefence",
+    "Type": 1,
+    "Range": 3,
+    "IconName": "RiseDefenceIcon",
+    "IconHighlightName": "RiseDefenceIcon_Highlight",
+    "BackgroundName": "Back_Button",
+    "BackgroundHighlightName": "Back_Highlight_Button",
+    "ShadowIconName": "RiseDefenceIcon_Shadow",
+    "Cooldown": 30.0,
+    "Effect": {
+        "Name": "SpellEffectRiseDefenceSmallKit",
+        "Effect": 1.5,
+        "Duration": 10.0,
+        "TimeInterval": 0.0,
+        "TargetTypes": [
+            3,
+            2,
+            1,
+            0
+        ]
+    }
+}
